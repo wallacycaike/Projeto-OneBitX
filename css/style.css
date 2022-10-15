@@ -7,6 +7,10 @@
   font-size: 13px;
   font-weight: bold;
 }
+.header #navItem {
+  color: white;
+  text-shadow: 1px 1px 4px rgba(139, 0, 0, 0.5);
+}
 .header #navItem:hover {
   color: #b9b9b9;
 }
@@ -254,6 +258,128 @@
 @media (max-width: 425px) {
   .titleFalcon9 {
     font-size: 40px;
+  }
+}
+.container00.container08 {
+  background-image: url("../../images/humanFlight/01.jpg");
+}
+.container00.container09 {
+  background-image: url("../../images/humanFlight/02.jpg");
+}
+.container00.container10 {
+  background-image: url("../../images/humanFlight/03.jpg");
+}
+.container00.container11 {
+  background-image: url("../../images/humanFlight/04.jpg");
+}
+.container00.container12 {
+  background-image: url("../../images/humanFlight/05.jpg");
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content .titleHuman {
+  font-size: 100px;
+}
+.container01Content .subTitleHuman {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.eartDesc {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eartDesc p {
+  color: #d8d8d8;
+  font-weight: 500;
+  font-size: 20px;
+  max-width: 800px;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.humanContact {
+  text-decoration: none;
+  color: rgb(75, 0, 75);
+  border-bottom: 1px solid rgb(75, 0, 75);
+  font-weight: bold;
+}
+.humanContact:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+@media (max-width: 768px) {
+  .eartDesc {
+    height: 40vh;
+  }
+  .eartDesc p {
+    font-size: 16px;
+  }
+  .containerRightContent {
+    margin-left: 0px;
+  }
+  .containerLeftContent {
+    margin-left: 0px;
+  }
+  .container01Content .titleHuman {
+    font-size: 60px;
+  }
+  .container01Content .subtitleHuman {
+    font-size: 20px;
+  }
+  .titleSection {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .subTitle {
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 425px) {
+  .eartDesc p {
+    font-size: 12px;
+  }
+  .container01Content .titleHuman {
+    font-size: 30px;
+  }
+  .titleSection {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .subTitle {
+    font-weight: 300;
+    margin-bottom: 40px;
   }
 }
 
